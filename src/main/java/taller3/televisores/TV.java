@@ -24,7 +24,7 @@ public class TV {
 		return canal;
 	}
 	public void setCanal(int nuevoCanal) {
-		if(nuevoCanal<=120 && nuevoCanal>=1) {
+		if(nuevoCanal<=120 && nuevoCanal>=1 && estado) {
 			canal=nuevoCanal;
 		}
 	}
@@ -38,7 +38,7 @@ public class TV {
 		return volumen;
 	}
 	public void setVolumen(int nuevoVolumen) {
-		if(nuevoVolumen<=7 && nuevoVolumen>=0) {
+		if(nuevoVolumen<=7 && nuevoVolumen>=0 && estado) {
 			volumen=nuevoVolumen;
 		}	
 	}
