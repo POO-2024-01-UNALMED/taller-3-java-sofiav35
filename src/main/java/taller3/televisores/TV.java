@@ -1,12 +1,12 @@
 package taller3.televisores;
 
 public class TV {
-	Marca marca;
+	private Marca marca;
 	private int canal=1;
 	private int precio=500;
 	private boolean estado;
 	private int volumen=1;
-	Control control;
+	protected Control control;
 	private static int numTV;
 	
 	public TV(Marca marca, boolean estado) {
@@ -64,6 +64,11 @@ public class TV {
 	public boolean getEstado(){
 		return estado;
 	}
+	
+	public void setEstado(boolean estado) {
+		this.estado=estado;
+	}  
+	
 	public void canalUp() {
 		if(canal<120 && estado) {
 			canal++;
