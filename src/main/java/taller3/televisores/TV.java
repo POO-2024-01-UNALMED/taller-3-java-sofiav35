@@ -70,7 +70,7 @@ public class TV {
 		}
 	}
 	public void canalDown() {
-		if(canal<1 && estado) {
+		if(canal>1 && estado) {
 			canal--;
 		}
 	}
