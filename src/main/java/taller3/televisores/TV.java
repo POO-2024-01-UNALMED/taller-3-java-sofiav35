@@ -80,7 +80,7 @@ public class TV {
 		}
 	}
 	public void volumenDown() {
-		if(volumen>1 && estado) {
+		if(volumen>0 && estado) {
 			volumen--;
 		}
 	}
