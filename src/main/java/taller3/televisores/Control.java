@@ -12,7 +12,7 @@ public class Control {
 		tv.canalUp();
 	}
 	public void canalDown() {
-		tv.canalDawn();
+		tv.canalDown();
 	}
 	public void volumenUp() {
 		tv.volumenUp();
